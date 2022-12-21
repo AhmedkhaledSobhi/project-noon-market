@@ -1,0 +1,107 @@
+:root
+{
+    --Main-Color: #feee00 !important;
+    --SecandColor : rgb(85, 142, 213) !important;
+}
+nav
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color:var(--Main-Color);
+}
+.navbar-brand 
+{
+    margin-right: -3rem !important;
+}
+
+.flag-Img
+{
+    width: 30% !important;
+    
+}
+form .form-control
+{
+    width: 90% !important;
+}
+nav .nav-item a
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000;
+    transition: all .5s;
+}
+nav .nav-item :hover
+{
+    color: #000;
+    background-color: #ffffff;
+}
+section{
+    width: 95% !important;
+    margin: auto !important;
+}
+#bg
+{
+    background-color: #e0e0e0a8 !important;
+}
+.tag-sall
+{
+    border-radius: 20px ;
+    color:#ffffff;
+    padding: 0 7px;
+    background-color: rgb(56, 174, 4) !important;
+}
+#SlidElectronics img
+{
+    width: 100% !important;
+}
+
+#mensFashion h2
+{
+    color:var(--SecandColor) ;
+    font-weight: 700;
+}
+#womensFashion h2{
+    color: var(--SecandColor);
+    font-weight: 700;
+}
+#kidsFashion h2
+{
+    color: var(--SecandColor);
+    font-weight: 700;
+}
+
+.conect
+{
+    width: 30px !important;
+    height: 30px !important;
+    border: solid 1px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-conct:hover .conect
+{
+    color: rgba(156, 153, 153, 0.893);
+}
+.item-conct:hover h4
+{
+    color: rgba(156, 153, 153, 0.893);
+}
+.conects
+{
+    width: 55px !important;
+    height: 55px !important;
+    border: solid 1px ;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Main-Color);
+}
+.conects:hover i
+{
+    color: rgba(101, 98, 98, 0.559);
+}
